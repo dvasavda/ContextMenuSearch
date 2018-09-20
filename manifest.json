@@ -1,0 +1,27 @@
+{
+    "author": "Dharak Vasavda",
+    "options_page": "options.html",
+    "background": {
+        "page": "options.html",
+        "persistent": true
+    },
+    "description": "Searches any highlighted text or phrase through the search engine of your choice",
+    "icons": {
+        "16": "assets/search16.png",
+        "32": "assets/search32.png",
+        "64": "assets/search64.png"
+    },
+    "manifest_version": 2,
+    "name": "Context Menu Search",
+    "permissions": [
+        "contextMenus",
+        "tabs",
+        "storage"
+    ],
+    "short_name": "ContextMenuSearch",
+    "version": "0.0.1",
+    "-ms-preload": {
+        "backgroundScript": "backgroundScriptsAPIBridge.js",
+        "contentScript": "contentScriptsAPIBridge.js"
+    }
+}

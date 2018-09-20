@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang ="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Search Engine Options</title>
+    <link rel="stylesheet" href="options.css">
+</head>
+
+<body>
+
+
+
+    <h1>Context Menu Search | Microsoft Edge</h1>
+
+
+    <div class="fadeIn-p">
+        <p>
+            Pick the search engines of your choice for appearance in the right-click context menu after highlighting text
+        </p>
+    </div>
+
+
+    <!-- Search engine checkboxes begin here -->
+
+    <div class="big-group big-group-border fadeIn-big-group ">
+
+        <form>
+            <h3> Search Engines </h3>
+
+            <fieldset id="group-searchengines">
+                <label class="labels labels--checkbox">Google
+                    <input type="checkbox" id="google" checked="checked" />
+                    <div class="big-group-checkBoxes"></div>
+                </label>
+
+                <label class="labels labels--checkbox">Bing
+                    <input type="checkbox" id="bing" checked="checked" />
+                    <div class="big-group-checkBoxes"></div>
+                </label>
+
+                <label class="labels labels--checkbox">Yahoo
+                    <input type="checkbox" id="yahoo" checked="checked" />
+                    <div class="big-group-checkBoxes"></div>
+                </label>
+
+                <label class="labels labels--checkbox">DuckDuckGo
+                    <input type="checkbox" id="duckduckgo" checked="checked" />
+                    <div class="big-group-checkBoxes"></div>
+                </label>
+
+                <label class="labels labels--checkbox">Baidu
+                    <input type="checkbox" id="baidu" checked="checked" />
+                    <div class="big-group-checkBoxes"></div>
+                </label>
+
+
+                <label class="labels labels--checkbox">Yandex
+                    <input type="checkbox" id="yandex" checked="checked" />
+                    <div class="big-group-checkBoxes"></div>
+                </label>
+
+            </fieldset>
+
+
+
+
+
+            <h3> Entertainment & Shopping </h3>
+
+            <fieldset id="group-entertainmentandshopping">
+
+                <label class="labels labels--checkbox">YouTube
+                    <input type="checkbox" id="youtube" checked="checked" />
+                    <div class="big-group-checkBoxes"></div>
+                </label>
+
+                <label class="labels labels--checkbox">EBay
+                    <input type="checkbox" id="ebay" checked="checked" />
+                    <div class="big-group-checkBoxes"></div>
+                </label>
+
+                <label class="labels labels--checkbox">Reddit
+                    <input type="checkbox" id="reddit" checked="checked" />
+                    <div class="big-group-checkBoxes"></div>
+                </label>
+
+                <label class="labels labels--checkbox">IMDb
+                    <input type="checkbox" id="imdb" checked="checked" />
+                    <div class="big-group-checkBoxes"></div>
+                </label>
+
+                <label class="labels labels--checkbox">Amazon
+                    <input type="checkbox" id="amazon" checked="checked" />
+                    <div class="big-group-checkBoxes"></div>
+                </label>
+
+
+                <label class="labels labels--checkbox">Twitter
+                    <input type="checkbox" id="twitter" checked="checked" />
+                    <div class="big-group-checkBoxes"></div>
+                </label>
+
+                <label class="labels labels--checkbox">Facebook People Search
+                    <input type="checkbox" id="facebookpeoplesearch" checked="checked" />
+                    <div class="big-group-checkBoxes"></div>
+                </label>
+
+            </fieldset>
+
+
+
+            <h3> Reference </h3>
+            <fieldset id="group-reference">
+                <label class="labels labels--checkbox">Wikipedia
+                    <input type="checkbox" id="wikipedia" checked="checked" />
+                    <div class="big-group-checkBoxes"></div>
+                </label>
+
+                <label class="labels labels--checkbox">Dictionary.com
+                    <input type="checkbox" id="dictionarydotcom" checked="checked" />
+                    <div class="big-group-checkBoxes"></div>
+                </label>
+
+                <label class="labels labels--checkbox">Thesaurus.com
+                    <input type="checkbox" id="thesaurusdotcom" checked="checked" />
+                    <div class="big-group-checkBoxes"></div>
+                </label>
+
+
+                <label class="labels labels--checkbox">WolframAlpha
+                    <input type="checkbox" id="wolframalpha" checked="checked" />
+                    <div class="big-group-checkBoxes"></div>
+                </label>
+
+                <label class="labels labels--checkbox">StackOverflow
+                    <input type="checkbox" id="stackoverflow" checked="checked" />
+                    <div class="big-group-checkBoxes"></div>
+                </label>
+
+                <label class="labels labels--checkbox">GitHub
+                    <input type="checkbox" id="github" checked="checked" />
+                    <div class="big-group-checkBoxes"></div>
+                </label>
+
+            </fieldset>
+
+        </form>
+
+
+
+        <!-- Paypal donate button -->
+
+
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+            <!-- Identify your business so that you can collect the payments. -->
+            <input type="hidden" name="business" value="vasavdadharak@gmail.com">
+
+            <!-- Specify a Donate button. -->
+            <input type="hidden" name="cmd" value="_donations">
+
+            <!-- Specify details about the contribution -->
+            <input type="hidden" name="item_name" value="So I can further educate myself and develop more great products!">
+            <input type="hidden" name="item_number" value="Context Menu Seach Extension | Microsoft Edge">
+            <input type="hidden" name="currency_code" value="USD">
+
+
+<!-- Donate button Image -->
+            <div class="paypalbutton">
+                <input type="image" name="submit" src="/assets/donate-full.png" width="120" height= "42" alt="Donate">
+                <img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+            </div>
+
+
+        </form>
+
+
+    </span>
+
+
+    
+        <div id="status"></div>
+        <button id="save" class="button button1" style="vertical-align:middle">
+            <span> Save
+
+    </button>
+
+</div>
+
+
+            <script src="main.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+<!-- Website list for reference 
+
+Bing
+https://www.bing.com/search?q=
+
+DuckDuckGo
+https://duckduckgo.com/?q=
+
+Yahoo
+https://search.yahoo.com/search;_ylc=?p=
+
+Baidu
+http://www.baidu.com/s?ie=utf-8&tn=baidu&wd=
+
+YouTube
+https://www.youtube.com/results?search_query=
+
+WolframAlpha
+http://www.wolframalpha.com/input/?i=
+
+Yandex
+https://www.yandex.com/search/?&text=
+
+Reddit
+https://www.reddit.com/search?q= 
+
+IMDb
+http://www.imdb.com/find?q=
+
+Dictionary.com
+http://www.dictionary.com/browse/
+
+Thesarus.com
+http://www.thesaurus.com/browse/
+
+StackOverflow
+http://stackoverflow.com/search?q=
+
+Github
+https://github.com/search?q=
+
+Amazon
+https://www.amazon.com/s/url=search-alias&field-keywords=
+
+Ebay
+http://www.ebay.com/sch/i.html?_from=R40&_trksid=p2055845.m570.l1313.TR12.TRC2.A0.H0.Xhi.TRS0&_nkw=
+
+Twitter
+https://twitter.com/search?q=
+
+Facebook People Search
+https://www.facebook.com/public?query= 
+
+-->
