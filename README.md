@@ -12,15 +12,16 @@ Q: Why develop such an extension?
 
 The idea behind this extension is to open up a simple option for the users of Microsoft Edge. Microsoft Edge, a web browser included in Windows 10, is used by over 300 million people. Web browsers are made to research terms, ideas, and phrases; not being able to quickly search a phrase can be frustrating. In Microsoft Edge, the only available option is "Ask Cortana," which then opens up a sudo-Bing type of search engine as a sidebar. This is often not enough for a standard user, as Cortana may not serve as substantial as the search engine of a user's choice. On a side note, Cortana is not available to anyone outside of the United States; this only strengthens the execution of the extension. Simply put - more freedom is granted to the user for those who would like more than what Cortana provides.
 
--
 
-Developed by Dharak Vasavda
+**Developed by Dharak Vasavda**
+
 A special thanks to all of the members of the development team, including Anurag Sharma, David Nunez, and Nishant Desai.
 
 Dedicated to my loving family: my mother, father, and brother, Vishal.
 
 
 **Search Engine Queries**
+
 Bing
 https://www.bing.com/search?q=
 
